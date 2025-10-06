@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+  background: #edf1ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ana kapsayıcı */
+.kapsayici {
+  background: white;
+  display: flex;
+  width: 700px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Sol taraf */
+.sonuc {
+  background: linear-gradient(180deg, #6743ff, #2e2be9);
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.sonuc h3 {
+  color: #c8bfff;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.daire {
+  background: linear-gradient(180deg, #4c25e6, #4633ed);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.daire h1 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.daire p {
+  font-size: 14px;
+  color: #bcb8ff;
+}
+
+.sonuc h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.sonuc .aciklama {
+  color: #c8bfff;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* Sağ taraf */
+.ozet {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ozet h3 {
+  color: #303b59;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ozet-kutu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.tepki {
+  background: #fff6f5;
+  color: #d16b6b;
+}
+
+.hafiza {
+  background: #fffbf2;
+  color: #d3a93b;
+}
+
+.sozel {
+  background: #f2fbfa;
+  color: #43b29f;
+}
+
+.gorsel {
+  background: #f3f3fd;
+  color: #4e56d9;
+}
+
+.ozet-kutu span {
+  color: #000;
+  font-weight: 700;
+}
+
+.devam {
+  background: #303b59;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.devam:hover {
+  background: linear-gradient(180deg, #6743ff, #2e2be9);
+}
